@@ -1,0 +1,25 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Suricata logs and alerts
+logs/
+alerts/
+*.log
+*.json
+
+# Ignore Docker files
+*.pid
+*.sock
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore backup files
+*~
+*.swp
